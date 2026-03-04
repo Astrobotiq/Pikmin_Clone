@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d04563636354a2db7e8ffb8d21cfe85, type: 3}
+  m_Name: InputReader
+  m_EditorClassIdentifier: 
+  moveEventChannel: {fileID: 11400000, guid: 6791efd81f78d734cbf0dfd4d9a6cd9c, type: 2}
+  targetDirectionChannel: {fileID: 11400000, guid: 8175b17fe3cbab943b6fcc06a7ab791f, type: 2}
+  AEventChannel: {fileID: 11400000, guid: 05e6b191dd4c9914588bf80ea2901ccf, type: 2}
+  BEventChannel: {fileID: 11400000, guid: f7c0dad7f179a4a47ab54c57b199e23f, type: 2}
+  XEventChannel: {fileID: 11400000, guid: cb8f337e4b5a85a4299c0168f843b204, type: 2}
+  YEventChannel: {fileID: 11400000, guid: 3a2b7bb1cae898e46b8e440c2fcb91e6, type: 2}
+  LBEventChannel: {fileID: 11400000, guid: 5904d1a4e33cbe740a4b62329e9ed7d1, type: 2}
+  RBEventChannel: {fileID: 11400000, guid: b8a3d0b88776b4f4bb0562c34361386e, type: 2}
+  RTEventChannel: {fileID: 11400000, guid: 9619dbc19aae0ed44b64f3dc3b312292, type: 2}
+  LTEventChannel: {fileID: 11400000, guid: 9d2435c41e8e2b549974d000369af433, type: 2}
+  cameraInputChannel: {fileID: 11400000, guid: ea8a359b2cab8d342a638ce3c77f8799, type: 2}

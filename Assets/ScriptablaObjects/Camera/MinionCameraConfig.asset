@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86ac939538d3466cafd91042e6e0d908, type: 3}
+  m_Name: MinionCameraConfig
+  m_EditorClassIdentifier: 
+  Profiles:
+  - MinCount: 0
+    TpsSettings:
+      VerticalOffset: 1
+      Radius: 8
+      TiltAngle: 13
+    TopDownSettings:
+      VerticalOffset: 8
+      Radius: 8
+      TiltAngle: 55
+  - MinCount: 4
+    TpsSettings:
+      VerticalOffset: 1
+      Radius: 10
+      TiltAngle: 20
+    TopDownSettings:
+      VerticalOffset: 10
+      Radius: 10
+      TiltAngle: 50
+  - MinCount: 8
+    TpsSettings:
+      VerticalOffset: 2
+      Radius: 12
+      TiltAngle: 20
+    TopDownSettings:
+      VerticalOffset: 12
+      Radius: 12
+      TiltAngle: 48
